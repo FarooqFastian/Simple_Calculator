@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="name">
+            <h3>CALCULATOR</h3>
+        </div>
+        <div>
+            <input id="result" type="text">
+        </div>
+        <div class="division">
+            <Button class="empty_button"></Button>
+            <Button class="empty_button"></Button>
+            <Button onclick="clear_result()">C</Button>
+            <Button class="empty_button"></Button>
+        </div>
+        <div class="division">
+            <Button onclick="getnum('7')">7</Button>
+            <Button onclick="getnum('8')">8</Button>
+            <Button onclick="getnum('9')">9</Button>
+            <Button onclick="getnum('*')">X</Button>
+        </div>
+        <div class="division">
+            <Button onclick="getnum('4')">4</Button>
+            <Button onclick="getnum('5')">5</Button>
+            <Button onclick="getnum('6')">6</Button>
+            <Button onclick="getnum('-')">-</Button>
+        </div>
+        <div class="division">
+            <Button onclick="getnum('1')">1</Button>
+            <Button onclick="getnum('2')">2</Button>
+            <Button onclick="getnum('3')">3</Button>
+            <Button onclick="getnum('+')">+</Button>
+        </div>
+        <div class="division">
+            <Button class="empty_button"></Button>
+            <Button onclick="getnum('0')">0</Button>
+            <Button onclick="calculate_result()">=</Button>
+            <Button class="empty_button"></Button>
+
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

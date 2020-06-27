@@ -1,0 +1,43 @@
+button {
+    width: 23%;
+}
+
+.empty_button {
+    color: white;
+    background-color: white;
+    border: white;
+}
+
+.main {
+    margin-left: 40%;
+    margin-top: 10%;
+    border: 2px solid gray;
+    width: 15%;
+    padding-bottom: 2px;
+}
+
+.division {
+    margin-top: 5px;
+    padding-right: 2px;
+    padding-left: 2px;
+    width: 100%;
+}
+
+input {
+    margin: 2px;
+    padding: 2px;
+    width: 94%;
+}
+
+.name {
+    width: 99%;
+    padding: 2px;
+    border-bottom: 1px solid gray;
+}
+
+h3 {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
